@@ -15,6 +15,8 @@ motor RightBack = motor(PORT6, ratio6_1, false);
 
 controller Controller = controller(primary);
 
+inertial Inertial = inertial(PORT7);
+
 /**
  * Used to initialize code/tasks/devices added using tools in VEXcode Pro.
  *

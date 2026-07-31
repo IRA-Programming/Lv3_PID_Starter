@@ -10,6 +10,7 @@ extern motor RightMiddle;
 extern motor RightBack;
 
 extern controller Controller;
+extern inertial Inertial;
 
 /**
  * Used to initialize code/tasks/devices added using tools in VEXcode Pro.
